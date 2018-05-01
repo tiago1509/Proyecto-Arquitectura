@@ -1,0 +1,3 @@
+C:\Users\Santiago\source\repos\Arquitectura\Arquitectura\obj\Debug\Arquitectura.njsprojResolveAssemblyReference.cache
+C:\Users\Santiago\source\repos\Arquitectura\Arquitectura\obj\Debug\Arquitectura.njsproj.CoreCompileInputs.cache
+C:\Users\Santiago\source\repos\Arquitectura\Arquitectura\bin\Microsoft.NodejsTools.WebRole.dll
