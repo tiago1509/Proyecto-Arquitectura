@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #e6faff;
+        }
+
+        input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #0040ff;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+
+            input[type=submit]:hover {
+                background-color: ##06c8f9;
+            }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+              <form>
+                  <center>
+                      <h1>Registro de Usuarios</h1>
+                  </center>
+
+                  <label for="id">Cédula del usuario</label>
+                  <input type="text" id="id" name="uId" placeholder="Escriba su cédula de ciudadanía.."></input>
+
+                  <label for="name">Nombres y apellidos</label>
+                  <input type="text" id="name" name="uName" placeholder="Escriba su nombre completo..."></input>
+
+                  <label for="pass">Contraseña</label>
+                  <input type="password" id="pass" name="uPass" placeholder="Escriba la nueva contraseña..."></input>
+
+                  <label for="name">Email</label>
+                  <input type="text" id="email" name="uEmail" placeholder="Escriba su email..."></input>
+
+                  <label for="name">Dirección</label>
+                  <input type="text" id="dir" name="uDir" placeholder="Escriba su dirección..."></input>
+
+                  <label for="name">Teléfono</label>
+                  <input type="text" id="tel" name="uTel" placeholder="Escriba su teléfono..."></input>
+
+                  <center>
+                      <input type="submit" value="Registrarse"></input>
+                  </center>
+              </form>
+          </div>
+    <script src="./dist/app-bundle.js"></script>
+</body>
+</html>
